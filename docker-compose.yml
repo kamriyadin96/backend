@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
     backend:
-        image: kamriyadin/jenkins-backend-test:dev
+        image: kamriyadin/jenkins-backend-test:main
         container_name: backend-express
         ports:
             - 4321:4321
